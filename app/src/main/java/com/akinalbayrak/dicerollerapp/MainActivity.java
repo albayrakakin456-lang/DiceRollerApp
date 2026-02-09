@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 // 1 ile 6 arasında rastgele bir tam sayı üretir.
                 java.util.Random random = new java.util.Random();
                 int sayi = random.nextInt(6) + 1;
+                System.out.println("Zar atıldı: " + sayi);
 
                 // Üretilen sayıya göre drawable klasöründeki resmi ImageView'da gösterir.
                 if (sayi == 1) {
